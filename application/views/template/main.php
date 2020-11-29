@@ -9,7 +9,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-<title>Sacco System</title>
+<title>Fombina System</title>
 <!-- Favicon -->
 <link rel="shortcut icon" href="<?php echo base_url(); ?>fav.ico" />
 
@@ -48,7 +48,7 @@
 		<div id="contentHeader">
 			<div id="header-wrapper">
 				<div id="nslogo"></div>
-				<div id="appTitle">Sacco System</div>
+				<div id="appTitle">Mege Fombina Investment</div>
 				<?php isset($_SESSION['lend_user']) ? $this->load->view('template/top-menu') : FALSE; //load top menus on user login ?>
 			</div>
 		</div>
@@ -65,7 +65,7 @@
 		</div>
 		<?php isset($data) ? $this->load->view($content, $data) : $this->load->view($content); //load page content ?>
 		<div class="clearFix"></div>
-		<div id="contentFooter">Copyright 2017. Sacco System, Inc. All
+		<div id="contentFooter">Copyright <?php echo date("Y"); ?>. Mega Fombina Investment. All
 			Rights Reserved.
 		</div>
 	</div>
