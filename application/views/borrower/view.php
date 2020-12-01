@@ -15,8 +15,13 @@
 	        	<div class="manage_menu"><span class="button_add">Loan</span><a href="<?php echo base_url();?>borrower/edit/?id=<?php echo $_GET['id']; ?>" class="button_edit">Edit</a></div>
 	        	<div class="clearFix"></div>
         		<div class="frm_container">
+				<div>
+						<img src="<?php echo base_url() ?>public/img/pp.jpg" width="150" height="150" alt = "<?php echo $data->lname ?>"/>
+						</div>
 	        		<div class="frm_heading"><span>Personal Info</span></div>
 	        		<div class="frm_inputs">
+					
+						
 		        		<table class="info_view">
 		        			<tr>
 		        				<td>First Name:</td>
@@ -43,6 +48,8 @@
 		        				<td><?php echo $data->civil_status; ?></td>
 		        			</tr>
 		        		</table>
+						
+
 	        		</div>
         		</div>
         		<div class="frm_container">

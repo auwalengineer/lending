@@ -286,7 +286,8 @@
         		<div class="frm_container">
 	        		<div class="frm_heading"><span>Transactions</span></div>
 	        		<div class="frm_inputs">
-						<?php echo $this->logger->show($_GET['id']); ?>
+					
+					<?php echo $this->logger->show($_GET['id']); ?>
 	        		</div>
         		</div>
 	        </div>
